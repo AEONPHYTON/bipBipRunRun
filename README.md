@@ -19,3 +19,8 @@ bipScript.js
 bipStyle.css
 
 note: the file beep.mp3 didn't upload on GitHub, choose or download one file for the signal and use it (remember to change the name of the file or the name in the import on the scripts)
+
+You can find the working script on this website
+
+https://klausermanspitzwegendorfentag.com/bip.html
+
