@@ -3,8 +3,9 @@ This project allows the coach to manage an incremental velocity test (like Mader
 The test is developed in a 400-meter track and field in the first lane. Put a cone every X meters (when X is the distance in meters between two cones).
 Set the run pace per 1k in minutes and second separate by a dot (.)
 Set the distance X (when you put the cone) and press CALCOLA
-In the GUI appears the velocitì in km/h and the time to run the distance X at the current pace. If the athlete runs regularly, every time is near the cone there's a "beep".
+In the GUI appears the velocity in km/h and the time to run the distance X at the current pace. If the athlete runs regularly, every time is near the cone there's a "beep".
 To stop the sound tap the button ARRESTA.
+In synthesis it's a kin of metronome
 Re-set the run pace and repeat till the end of the test
 
 There are two types of scripts:
