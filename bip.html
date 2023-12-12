@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bip Bip Run Run</title>
+    <link rel="stylesheet" href="bipStyle.css">
+</head>
+<body>
+    <div class="container">
+        <h1><b>Bip Bip Run Run</b></h1>
+        <div class="input-group">
+            <h3>Inserisci il passo medio espresso in minuti.secondi [Separa i minuti e i secondi con un punto (.) ad esempio 03.20 oppure 3.2]</h3>
+            <label>Passo/1000 (min.sec):</label>
+            <input type="text" id="paceInput" placeholder="min.sec">
+        </div>
+        <div class="input-group">
+            <h3>Inserisci la distanza in metri tra i birilli</h3>
+            <label>Distanza tra i birilli (m):</label>
+            <input type="text" id="coneDistanceInput" placeholder="Dist. m">
+        </div>
+        <div class="info">
+            <p id="speedDisplay">Velocità (km/h): </p>
+            <p id="beepTimeDisplay">Tempo per 'bip' (sec): </p>
+            <h3>Dopo aver inserito i parametri di passo medio e distanza dei birilli, premere il tasto CALCOLA, quando saranno comparsi i valori, premere il tasto AVVIA per far partire il "beep" sonoro. </h3>
+        </div>
+        <button id="calculateBtn">CALCOLA</button>
+        <button id="beepBtn">AVVIA</button>
+    </div>
+
+    <script src="bipScript.js"></script>
+</body>
+</html>
